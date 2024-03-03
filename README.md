@@ -1,6 +1,6 @@
-# my-replicate-app
+# llm-service
 
-This is a scaffoled Node.js project structure for running AI models with [Replicate's API](https://replicate.com/docs/get-started/nodejs).
+This is a Node.js project for running AI models with [Replicate's API](https://replicate.com/docs/get-started/nodejs).
 
 ## Usage
 
@@ -15,5 +15,6 @@ export REPLICATE_API_TOKEN=...
 Then run your app:
 
 ```console
-npm start
+npm install
+npm run dev
 ```
